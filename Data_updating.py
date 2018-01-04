@@ -4,8 +4,7 @@ import pandas as pd
 import datetime
 import pickle
 import time
-with open('/Users/Lwmformula/Downloads/stockdata/sourcecode' +
-          '/datalist.pkl.txt', "r") as f:
+with open('/Users/Lwmformula/Downloads/stockdata/sourcecode/datalist.pkl.txt', "r") as f:
     datalist = pickle.load(f)
 localpath = '/Users/Lwmformula/Downloads/stockdata/{}.csv'
 def oscillator_update(df,t):
